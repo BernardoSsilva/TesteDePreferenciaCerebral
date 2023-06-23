@@ -1,8 +1,124 @@
-<html>
-    <body>
-        <form action="paginaPerguntasUm.php" >
-            
-            <input type="submit" value="Avançar">
-        </form>
-    </body>
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/testeDePersonalidade/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <style>
+        body{
+            background-color: rgb(88, 87, 87);
+        }
+
+    
+        .card{
+            margin-top: 1%;
+            width: 60vw ; 
+            margin-left: auto;
+            margin-right: auto;
+            height: 95vh;
+            display: grid;
+            gap: 2rem;
+            color: white;
+            background-color: black;
+            text-align: center;
+        }
+
+        .card-text{
+            margin-top: 0.5rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+    </style>
+    <title>Perguntas</title>
+</head>
+<body>
+    <div class="card" align="left">
+        <div class="card-body" >
+            <form action="paginaPerguntasUm.php" method="post">
+                <h3 class="card-text">Eu sou... </h3>
+                <h4>
+                <div class="select">
+                   <select name="pergunta1" id="pergunta1" class="card-text ">
+                    <option value="I">Idealista, criativo e visionário</option>
+                    <option value="C">Divertido, espiritual e benéfico</option>
+                    <option value="O">Confiável, meticuloso e previsível</option>
+                    <option value="A">Focado, determinado e persistente</option>
+                </select>
+                <div class="select_arrow">
+                </div>
+                </div> 
+                </h4>
+                
+
+                <h3 class="card-text">Eu gosto de...</h3> 
+                <h4>
+                <div class="select">                      
+                    <select name="pergunta2" class="card-text ">
+                    <option value="A">Ser piloto</option>
+                    <option value="C">Conversar com os passageiros</option>
+                    <option value="O">Planejar a viagem</option>
+                    <option value="I">Explorar novas rotas</option>
+                </select>
+                <div class="select_arrow">
+                </div>
+                </div>  
+                </h4>
+
+                <h3 class="card-text">Se você quiser se dar bem comigo...</h3>
+                <h4>
+                <div class="select">
+                    <select name="pergunta3" class="card-text ">
+                    <option value="I">Me dê liberdade</option>
+                    <option value="O">Me deixe saber sua expectativa</option>
+                    <option value="A">Lidere, siga ou saia do caminho</option>
+                    <option value="C">Seja amigável, carinhoso e compreensivo</option>
+                </select>
+                <div class="select_arrow">
+                </div> 
+                </div>
+                </h4>
+        
+
+                <h3 class="card-text">Para conseguir obter bons resultados é preciso... </h3>
+                <h4>
+
+                <div class="select">                       
+                <select name="pergunta4" class="card-text ">
+                    <option value="I">Ter incertezas</option>
+                    <option value="O">Controlar o essencial</option>
+                    <option value="C">Diversão e celebração</option>
+                    <option value="A">Planejar e obter recursos</option>
+                </select>
+                <div class="select_arrow">
+                </div>
+                </div> 
+                </h4>
+                
+
+                <h3 class="card-text">Eu me divirto quando... </h3>
+                
+                <h4>
+                <div class="select">
+                    <select name="pergunta5" class="card-text ">
+                
+                    <option value="A">Estou me exercitando</option>
+                    <option value="I">Tenho novidades</option>
+                    <option value="C">Estou com os outros</option>
+                    <option value="O">Determino as regras</option>
+                </select>
+                <div class="select_arrow">
+                </div>
+                </div>
+                </h4>
+                <div style="margin-left: auto;  margin-right: auto;" align="center">
+                <button type="submit"  class="glow-on-hover">Avançar</button>
+             </div>
+            </form>
+        </div>
+    </div>
+</body>
 </html>
