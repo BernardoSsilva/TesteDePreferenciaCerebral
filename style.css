@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    -webkit-box-shadow: 14px 18px 24px -6px rgba(119,0,255,0.57);
+    -moz-box-shadow: 14px 18px 24px -6px rgba(119,0,255,0.57);
+    box-shadow: 14px 18px 24px -6px rgba(119,0,255,0.57);
+}
+
+.imageInSide{
+    display: flex;
+}
