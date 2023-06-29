@@ -9,11 +9,11 @@
     $O = $_SESSION['O'];
     $C = $_SESSION['C'];
 
-    $pergunta1 = $_POST['pergunta11'];
-    $pergunta2 = $_POST['pergunta12'];
-    $pergunta3 = $_POST['pergunta13'];
-    $pergunta4 = $_POST['pergunta14'];
-    $pergunta5 = $_POST['pergunta15'];
+    $pergunta1 = $_POST['pergunta16'];
+    $pergunta2 = $_POST['pergunta17'];
+    $pergunta3 = $_POST['pergunta18'];
+    $pergunta4 = $_POST['pergunta19'];
+    $pergunta5 = $_POST['pergunta20'];
     
 
     switch ($pergunta1){
