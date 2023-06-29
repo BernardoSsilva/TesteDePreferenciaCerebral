@@ -3,6 +3,12 @@
 
     include 'variaveis.php';
 
+    session_start();
+    $A = $_SESSION['A'];
+    $I = $_SESSION['I'];
+    $O = $_SESSION['O'];
+    $C = $_SESSION['C'];
+
     $pergunta1 = $_POST['pergunta6'];
     $pergunta2 = $_POST['pergunta7'];
     $pergunta3 = $_POST['pergunta8'];
@@ -12,82 +18,83 @@
 
     switch ($pergunta1){
         case "I":
-            $I++;
+            $I += 1;
             break;
         case "A": 
-            $A++;
+            $A += 1;
             break;
         case "O":
-            $O++;
+            $O += 1;
             break;
         case "C":
-            $C++;
+            $C += 1;
             break;
     }
-
+    
     switch ($pergunta2){
         case "I":
-            $I++;
-            
+            $I += 1;
             break;
         case "A": 
-            $A++;
+            $A += 1;
             break;
         case "O":
-            $O++;
+            $O += 1;
             break;
         case "C":
-            $C++;
+            $C += 1;
             break;
     }
-
+    
     switch ($pergunta3){
         case "I":
-            $I++;
-            
+            $I += 1;
             break;
         case "A": 
-            $A++;
+            $A += 1;
             break;
         case "O":
-            $O++;
+            $O += 1;
             break;
         case "C":
-            $C++;
+            $C += 1;
             break;
     }
-
+    
     switch ($pergunta4){
         case "I":
-            $I++;
-            
+            $I += 1;
             break;
         case "A": 
-            $A++;
+            $A += 1;
             break;
         case "O":
-            $O++;
+            $O += 1;
             break;
         case "C":
-            $C++;
+            $C += 1;
+            break;
+    }
+    
+    switch ($pergunta5){
+        case "I":
+            $I += 1;
+            break;
+        case "A": 
+            $A += 1;
+            break;
+        case "O":
+            $O += 1;
+            break;
+        case "C":
+            $C += 1;
             break;
     }
 
-    switch ($pergunta5){
-        case "I":
-            $I++;
-            
-            break;
-        case "A": 
-            $A++;
-            break;
-        case "O":
-            $O++;
-            break;
-        case "C":
-            $C++;
-            break;
-    }
+    $_SESSION['A'] = $A;
+    $_SESSION['I'] = $I;
+    $_SESSION['O'] = $O;
+    $_SESSION['C'] = $C;
 
     header('Location: resultado.php');
 ?>
