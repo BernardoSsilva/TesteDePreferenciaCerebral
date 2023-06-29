@@ -1,15 +1,13 @@
+
 <?php
+
+    include 'variaveis.php';
 
     $pergunta1 = $_POST['pergunta1'];
     $pergunta2 = $_POST['pergunta2'];
     $pergunta3 = $_POST['pergunta3'];
     $pergunta4 = $_POST['pergunta4'];
     $pergunta5 = $_POST['pergunta5'];
-
-    $A= 0;
-    $O= 0;
-    $I= 0;
-    $C = 0;
     
 
     switch ($pergunta1){
