@@ -3,11 +3,11 @@
 
     include 'variaveis.php';
 
-    $pergunta1 = $_POST['pergunta1'];
-    $pergunta2 = $_POST['pergunta2'];
-    $pergunta3 = $_POST['pergunta3'];
-    $pergunta4 = $_POST['pergunta4'];
-    $pergunta5 = $_POST['pergunta5'];
+    $pergunta1 = $_POST['pergunta6'];
+    $pergunta2 = $_POST['pergunta7'];
+    $pergunta3 = $_POST['pergunta8'];
+    $pergunta4 = $_POST['pergunta9'];
+    $pergunta5 = $_POST['pergunta10'];
     
 
     switch ($pergunta1){
@@ -89,5 +89,5 @@
             break;
     }
 
-    header('Location: paginaPerguntasDois.html');
+    header('Location: resultado.php');
 ?>

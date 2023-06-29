@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/testeDePersonalidade/assets/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <style>
+        body{
+            background-color: rgb(8, 8, 8);
+        }
+        .card{
+            margin-top: 1%;
+            width: 60vw ; 
+            margin-left: auto;
+            margin-right: auto;
+            height: 95vh;
+            display: grid;
+            gap: 2rem;
+            color: white;
+            background-color: black;
+            text-align: center;
+        }
+
+        .card-text{
+            margin-top: 0.5rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @media screen and (max-width: 700px){
+            .card{
+                width: 100vw;
+                height: 100vh;
+            }
+        }
+        
+    </style>
+    <title>Perguntas</title>
+</head>
+<body>
+    <div class="card" align="left">
+        <div class="card-body" >
+            <form action="paginaPerguntasDois.php" method="post">
+                <h3 class="card-text">Eu penso que... </h3>
+                <h4>
+                    <div class="select">
+                        <select name="pergunta6" id="pergunta6" class="card-text">
+                            <option value="C">Unidos venceremos, divididos perderemos</option>
+                            <option value="A">O ataque é melhor que a defesa</option>
+                            <option value="I">É bom ser manso, mas andar com um porrete</option>
+                            <option value="O">Um homem prevenido vale por dois</option>
+                        </select>
+                        <div class="select_arrow"></div>
+                    </div> 
+                </h4>
+                
+
+                <h3 class="card-text">Minha preocupação é...</h3> 
+                <h4>
+                    <div class="select">                      
+                        <select name="pergunta7" id="pergunta7" class="card-text">
+                            <option value="I">Gerar a ideia global</option>
+                            <option value="C">Fazer com que as pessoas gostem</option>
+                            <option value="O">Fazer com que funcione</option>
+                            <option value="A">Fazer com que aconteça</option>
+                        </select>
+                    <div class="select_arrow"></div>
+                    </div> 
+                </h4>
+
+                <h3 class="card-text">Eu prefiro...</h3>
+                <h4>
+                <div class="select">
+                    <select name="pergunta8" id="pergunta8" class="card-text">
+                        <option value="I">Perguntas a respostas</option>
+                        <option value="O">Ter todos os detalhes</option>
+                        <option value="A">Vantagens a meu favor</option>
+                        <option value="C">Que todos tenham a chance de ser ouvidos</option>
+                    </select>
+                <div class="select_arrow">
+                </div> 
+                </div>
+                </h4>
+        
+
+                <h3 class="card-text">Eu gosto de... </h3>
+                <h4>
+
+                <div class="select">                       
+                    <select name="pergunta9" id="pergunta9" class="card-text">
+                        <option value="A">Fazer progresso</option>
+                        <option value="C">Construir memórias</option>
+                        <option value="O">Fazer sentido</option>
+                        <option value="I">Tornar as pessoas confortáveis</option>
+                    </select>
+                <div class="select_arrow">
+                </div>
+                </div> 
+                </h4>
+                
+
+                <h3 class="card-text">Eu gosto de chegar... </h3>
+                
+                <h4>
+                <div class="select">
+                    <select name="pergunta10" id="pergunta10" class="card-text">
+                        <option value="A">Na frente</option>
+                        <option value="C">Junto</option>
+                        <option value="O">Na hora</option>
+                        <option value="I">Em outro lugar</option>
+                    </select>
+                <div class="select_arrow">
+                </div>
+                </div>
+                </h4>
+                <div style="margin-left: auto;  margin-right: auto;" align="center">
+                <button type="submit"  class="glow-on-hover">Avançar</button>
+             </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
