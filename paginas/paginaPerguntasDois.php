@@ -96,5 +96,5 @@
     $_SESSION['O'] = $O;
     $_SESSION['C'] = $C;
 
-    header('Location: resultado.php');
+    header('Location: paginaPerguntasTres.html');
 ?>
