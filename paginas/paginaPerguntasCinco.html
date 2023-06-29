@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/testeDePersonalidade/assets/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <style>
+        body{
+            background-color: rgb(8, 8, 8);
+        }
+        .card{
+            margin-top: 1%;
+            width: 60vw ; 
+            margin-left: auto;
+            margin-right: auto;
+            height: 95vh;
+            display: grid;
+            gap: 2rem;
+            color: white;
+            background-color: black;
+            text-align: center;
+        }
+
+        .card-text{
+            margin-top: 0.5rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @media screen and (max-width: 700px){
+            .card{
+                width: 100vw;
+                height: 100vh;
+            }
+        }
+        
+    </style>
+    <title>Perguntas</title>
+</head>
+<body>
+    <div class="card" align="left">
+        <div class="card-body" >
+            <form action="paginaPerguntasCinco.php" method="post">
+                <h3 class="card-text">Se eu fosse bilionário...</h3>
+                <h4>
+                    <div class="select">
+                        <select name="pergunta21" id="pergunta21" class="card-text">
+                            <option value="C">Faria doações para entidades</option>
+                            <option value="O">Criaria uma poupança avantajada</option>
+                            <option value="I">Faria o que desse na cabeça</option>
+                            <option value="A">Exibiria bastante com algumas pessoas</option>
+                        </select>                    
+                        <div class="select_arrow"></div>
+                    </div> 
+                </h4>
+                
+
+                <h3 class="card-text">Eu acredito que...</h3> 
+                <h4>
+                    <div class="select">                      
+                        <select name="pergunta22" id="pergunta22" class="card-text">
+                            <option value="A">O destino é mais importante que a jornada</option>
+                            <option value="C">A jornada é mais importante que o destino</option>
+                            <option value="O">Um centavo economizado é um centavo ganho</option>
+                            <option value="I">Bastam um navio e uma estrela para navegar</option>
+                        </select>
+                    <div class="select_arrow"></div>
+                    </div> 
+                </h4>
+
+                <h3 class="card-text">Eu acredito também que...</h3>
+                <h4>
+                <div class="select">
+                    <select name="pergunta23" id="pergunta23" class="card-text">
+                        <option value="A">Aquele que hesita está perdido</option>
+                        <option value="O">De grão em grão a galinha enche o papo</option>
+                        <option value="C">O que vai, volta</option>
+                        <option value="I">Um sorriso ou uma careta é o mesmo para quem é cego</option>
+                    </select>
+                <div class="select_arrow">
+                </div> 
+                </div>
+                </h4>
+        
+
+                <h3 class="card-text">Eu acredito ainda que...</h3>
+                <h4>
+
+                <div class="select">                       
+                    <select name="pergunta24" id="pergunta24" class="card-text">
+                        <option value="O">É melhor prudência do que arrependimento</option>
+                        <option value="I">A autoridade deve ser desafiada</option>
+                        <option value="C">A justiça deve ser conquistada</option>
+                        <option value="A">Um pássaro na mão vale mais que dois voando</option>
+                    </select>
+                <div class="select_arrow">
+                </div>
+                </div> 
+                </h4>
+                
+
+                <h3 class="card-text">Eu acredito também que..</h3>
+                
+                <h4>
+                <div class="select">
+                    <select name="pergunta25" id="pergunta25" class="card-text">
+                        <option value="I">O que vai, volta</option>
+                        <option value="O">A pressa é inimiga da perfeição</option>
+                        <option value="A">É melhor prevenir do que remediar</option>
+                        <option value="C">A união faz a força</option>
+                    </select>
+                <div class="select_arrow">
+                </div>
+                </div>
+                </h4>
+                <div style="margin-left: auto;  margin-right: auto;" align="center">
+                <button type="submit"  class="glow-on-hover">Avançar</button>
+             </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
