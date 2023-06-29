@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/testeDePersonalidade/assets/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <style>
+        body{
+            background-color: rgb(8, 8, 8);
+        }
+        .card{
+            margin-top: 1%;
+            width: 60vw ; 
+            margin-left: auto;
+            margin-right: auto;
+            height: 95vh;
+            display: grid;
+            gap: 2rem;
+            color: white;
+            background-color: black;
+            text-align: center;
+        }
+
+        .card-text{
+            margin-top: 0.5rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @media screen and (max-width: 700px){
+            .card{
+                width: 100vw;
+                height: 100vh;
+            }
+        }
+        
+    </style>
+    <title>Perguntas</title>
+</head>
+<body>
+    <div class="card" align="left">
+        <div class="card-body" >
+            <form action="paginaPerguntasTres.php" method="post">
+                <h3 class="card-text">Um ótimo dia para mim é quando... </h3>
+                <h4>
+                    <div class="select">
+                        <select name="pergunta11" id="pergunta11" class="card-text">
+                            <option value="A">Consigo fazer muitas coisas</option>
+                            <option value="C">Me divirto com meus amigos</option>
+                            <option value="O">Tudo segue conforme planejado</option>
+                            <option value="I">Desfruto de coisas novas e estimulantes</option>
+                        </select>
+                        <div class="select_arrow"></div>
+                    </div> 
+                </h4>
+                
+
+                <h3 class="card-text">Eu vejo a morte como...</h3> 
+                <h4>
+                    <div class="select">                      
+                        <select name="pergunta12" id="pergunta12" class="card-text">
+                            <option value="I">Uma grande aventura misteriosa</option>
+                            <option value="C">Oportunidade de rever os falecidos</option>
+                            <option value="O">Um modo de receber recompensas</option>
+                            <option value="A">Algo que sempre chega muito cedo</option>
+                        </select>
+                    <div class="select_arrow"></div>
+                    </div> 
+                </h4>
+
+                <h3 class="card-text">Minha filosofia de vida é...</h3>
+                <h4>
+                <div class="select">
+                    <select name="pergunta13" id="pergunta13" class="card-text">
+                        <option value="A">Há ganhadores e perdedores, e eu acredito ser um ganhador</option>
+                        <option value="C">Para eu ganhar, ninguém precisa perder</option>
+                        <option value="O">Para ganhar é preciso seguir as regras</option>
+                        <option value="I">Para ganhar, é necessário inventar novas regras</option>
+                    </select>
+                <div class="select_arrow">
+                </div> 
+                </div>
+                </h4>
+        
+
+                <h3 class="card-text">Eu sempre gostei de...</h3>
+                <h4>
+
+                <div class="select">                       
+                    <select name="pergunta14" id="pergunta14" class="card-text">
+                        <option value="I">Explorar</option>
+                        <option value="O">Evitar surpresas</option>
+                        <option value="A">Focalizar a meta</option>
+                        <option value="C">Realizar uma abordagem natural</option>
+                    </select>
+                <div class="select_arrow">
+                </div>
+                </div> 
+                </h4>
+                
+
+                <h3 class="card-text">Eu gosto de mudanças se... </h3>
+                
+                <h4>
+                <div class="select">
+                    <select name="pergunta15" id="pergunta15" class="card-text">
+                        <option value="A">Me der uma vantagem competitiva</option>
+                        <option value="C">For divertido e puder ser compartilhado</option>
+                        <option value="I">Me der mais liberdade e variedade</option>
+                        <option value="O">Melhorar ou me der mais controle</option>
+                    </select>
+                <div class="select_arrow">
+                </div>
+                </div>
+                </h4>
+                <div style="margin-left: auto;  margin-right: auto;" align="center">
+                <button type="submit"  class="glow-on-hover">Avançar</button>
+             </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
