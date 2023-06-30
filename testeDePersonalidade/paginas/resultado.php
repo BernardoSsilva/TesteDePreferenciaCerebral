@@ -7,15 +7,13 @@
     $C = $_SESSION['C'];
     
     if(($C > $A)&&($C > $I)&&($C > $O)){
-        ECHO "<p>GATO";
+        header('Location: gato.html');
     }else if(($A > $C)&&($A > $I)&&($A > $O)){
-        ECHO "<p>TUBARÃO";
+        header('Location: tubarao.html');
     }else if(($O > $A)&&($O > $I)&&($O > $C)){
-        ECHO "<p>LOBO";
+        header('Location: lobo.html');
     }else if(($I > $A)&&($C < $I)&&($I > $O)){
-        ECHO "<p>AGUIA";
-    } else {
-        echo"empate ".$C." ".$A." ".$O." ".$I ;
+        header('Location: aguia.html');
     }
 
 ?>
