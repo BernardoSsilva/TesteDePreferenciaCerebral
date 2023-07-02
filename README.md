@@ -16,8 +16,12 @@
 <p>O resultado é mostrado de forma que apresente as caracteristicas principais do usuario conforme as respostas dadas.</p>
 
 <div display="grid" gap="2rem">
- <img  gap="1rem" align="center" alt="gato" width="400px" heigt="314px" src= "https://user-images.githubusercontent.com/126777966/227592528-dcfa931c-32b0-4fae-aab0-4daf6d6841af.png">
- <img gap="1rem" align="center" alt="aguia" width="400px" heigt="314px" src="https://user-images.githubusercontent.com/126777966/227592524-396b3066-3ad8-457c-9440-0a1cec9de08f.png">
-<img gap="1rem" align="center" alt="lobo" width="400px" heigt="314px" src="https://user-images.githubusercontent.com/126777966/227592531-16ec2a74-1100-47c4-89f3-5e1981db13ca.png">
-<img gap="1rem" align="center" alt="tubarao" width="400px" heigt="314px" src="https://user-images.githubusercontent.com/126777966/227592532-b73ded23-0c26-409b-9603-d8e1ce9afac2.png">
+ <img  gap="1rem" align="center" alt="gato" width="400px" heigt="314px" src= "![2](https://github.com/BernardoSsilva/TesteDePreferenciaCerebral/assets/126777966/fb198560-8044-4d8f-b9e6-874110de7415)
+">
+ <img gap="1rem" align="center" alt="aguia" width="400px" heigt="314px" src="![1](https://github.com/BernardoSsilva/TesteDePreferenciaCerebral/assets/126777966/21cf8a3c-4642-43dd-b59e-eb7498de3d87)
+">
+<img gap="1rem" align="center" alt="lobo" width="400px" heigt="314px" src="![4](https://github.com/BernardoSsilva/TesteDePreferenciaCerebral/assets/126777966/6469c391-0060-48e7-bca1-bb53fca59b2b)
+">
+<img gap="1rem" align="center" alt="tubarao" width="400px" heigt="314px" src="![3](https://github.com/BernardoSsilva/TesteDePreferenciaCerebral/assets/126777966/94493df8-4d0d-430a-ae8f-052b0d0dc85d)
+">
 </div>
