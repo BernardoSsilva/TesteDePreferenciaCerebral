@@ -1,3 +1,4 @@
+<div align="center">
 # Teste De Personalidade Cerebral
 
 
@@ -20,4 +21,5 @@
  <img gap="1rem" align="center" alt="aguia" width="400px" heigt="314px" src="https://github.com/BernardoSsilva/TesteDePreferenciaCerebral/assets/126777966/21cf8a3c-4642-43dd-b59e-eb7498de3d87">
 <img gap="1rem" align="center" alt="lobo" width="400px" heigt="314px" src="https://github.com/BernardoSsilva/TesteDePreferenciaCerebral/assets/126777966/6469c391-0060-48e7-bca1-bb53fca59b2b">
 <img gap="1rem" align="center" alt="tubarao" width="400px" heigt="314px" src="https://github.com/BernardoSsilva/TesteDePreferenciaCerebral/assets/126777966/94493df8-4d0d-430a-ae8f-052b0d0dc85d">
+</div>
 </div>
