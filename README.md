@@ -16,8 +16,7 @@
 <p>O resultado é mostrado de forma que apresente as caracteristicas principais do usuario conforme as respostas dadas.</p>
 
 <div display="grid" gap="2rem">
- <img  gap="1rem" align="center" alt="gato" width="400px" heigt="314px" src= "![2](https://github.com/BernardoSsilva/TesteDePreferenciaCerebral/assets/126777966/fb198560-8044-4d8f-b9e6-874110de7415)
-">
+ <img  gap="1rem" align="center" alt="gato" width="400px" heigt="314px" src="https://github.com/BernardoSsilva/TesteDePreferenciaCerebral/assets/126777966/fb198560-8044-4d8f-b9e6-874110de7415">
  <img gap="1rem" align="center" alt="aguia" width="400px" heigt="314px" src="![1](https://github.com/BernardoSsilva/TesteDePreferenciaCerebral/assets/126777966/21cf8a3c-4642-43dd-b59e-eb7498de3d87)
 ">
 <img gap="1rem" align="center" alt="lobo" width="400px" heigt="314px" src="![4](https://github.com/BernardoSsilva/TesteDePreferenciaCerebral/assets/126777966/6469c391-0060-48e7-bca1-bb53fca59b2b)
