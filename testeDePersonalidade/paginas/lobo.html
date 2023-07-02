@@ -3,9 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/testeDePersonalidade/assets/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <style>
+        body{
+            background-color: rgb(8, 8, 8);
+        }
+        .card{
+            margin-top: 1%;
+            width: 60vw ; 
+            margin-left: auto;
+            margin-right: auto;
+            height: 107vh;
+            display: grid;
+            gap: 2rem;
+            color: white;
+            background-color: black;
+            text-align: center;
+        }
+
+        .card-text{
+            margin-top: 0.5rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @media screen and (max-width: 700px){
+            .card{
+                width: 100vw;
+                height: 100vh;
+            }
+        }
+        
+    </style>
+    <title>Lobo</title>
 </head>
 <body>
+    <div class="card" align="left">
+        <div class="card-body" >
+            <form action="return.php">
+                <p><img class="card-img" style="height: 15rem; width: 15rem;" src="https://user-images.githubusercontent.com/126777966/250370242-7e6adfd7-8a77-4016-9a6b-0b53917fd8a1.png" alt=""></p>
+                <div style="font-size: 1.2rem;">
+                <p align="center">Você possui um grande senso de urgência e habilidade em resolver desafios, você deseja fazer as coisas de maneira pratica e veloz sem delegar a autoridade e é auto suficiente</p>
+                <p align="center">Pontos fortes: Faz com que ocorra, evita burocracia e motiva </p>
+                <p align="center">Pontos para melhoria: Socialmente um desastre, busca realizar de maneira mais facil, dificil relacionamento</p>
+                <p align="center">Você preza pelos resultados e age de forma livre e individual controlando as proprias atividades e resolvendo os problemas de sua forma,  promovendo compedições individuais e não havendo nescessidade de repetição de tarefas</p>
+                </div>
+                <button type="submit" class="glow-on-hover" style="font-size: 1rem;">Inicio</button>
+            </form>
+        </div>
+    </div>
     
 </body>
 </html>
