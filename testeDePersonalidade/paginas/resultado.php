@@ -14,6 +14,8 @@
         header('Location: lobo.html');
     }else if(($I > $A)&&($C < $I)&&($I > $O)){
         header('Location: aguia.html');
+    } else {
+        header('Location: index.html');
     }
 
 ?>

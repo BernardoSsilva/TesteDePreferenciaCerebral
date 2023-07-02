@@ -3,9 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/testeDePersonalidade/assets/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <style>
+        body{
+            background-color: rgb(8, 8, 8);
+        }
+        .card{
+            margin-top: 1%;
+            width: 60vw ; 
+            margin-left: auto;
+            margin-right: auto;
+            height: 107vh;
+            display: grid;
+            gap: 2rem;
+            color: white;
+            background-color: black;
+            text-align: center;
+        }
+
+        .card-text{
+            margin-top: 0.5rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @media screen and (max-width: 700px){
+            .card{
+                width: 100vw;
+                height: 100vh;
+            }
+        }
+        
+    </style>
+    <title>Gato</title>
 </head>
 <body>
+    <div class="card" align="left">
+        <div class="card-body" >
+            <form action="return.php">
+                <p><img class="card-img" style="height: 15rem; width: 15rem;" src="https://github.com/BernardoSsilva/TesteDePreferenciaCerebral/assets/126777966/220ee512-b0e1-440a-bfd8-f404c0b73d70" alt=""></p>
+                <div style="font-size: 1.2rem;">
+                <p align="center">Voce deseja fazer diferente. é criativo, intuitivo, possui foco no futuro, é distraido, curioso, flexivel e informal/ casual. sua criatividade e liberdade te movem</p>
+                <p align="center">Pontos fortes: Idealização; capaz de promover mudanças radicais; criatividade e antecipação do futuro</p>
+                <p align="center">Pontos para melhoria: Falta de atenção para o presente, impaciencia, rebeldia e defender novidades somente por novidades</p>
+                <p align="center">Você preza pelos valores de liberdade de expressão, ausencia de controles rigidos, Ambiente de trabalho descentralizado, Liberdade para fazer exceções, Oportunidade para delegar tarefas e detalhes.</p>
+                </div>
+                <button type="submit" class="glow-on-hover" style="font-size: 1rem;">Inicio</button>
+            </form>
+        </div>
+    </div>
     
 </body>
 </html>
