@@ -5,10 +5,10 @@
 <p>O projeto é um web-site de teste de personalidade que apresenta 4 possiveis resultados<p>
 
 <div display="inline">
- <img align="center" alt="gato" src="https://user-images.githubusercontent.com/126777966/227591422-2ed95228-c729-49b2-a2ea-e7dda3a3344d.png">
-  <img align="center" alt="aguia" src="https://user-images.githubusercontent.com/126777966/227590440-8bae6dd6-c488-4b1f-b484-7aaff82761c4.png">
-   <img align="center" alt="lobo" src="https://user-images.githubusercontent.com/126777966/227590514-5419b5e1-e04a-4bfd-9c90-1a35cb8cfe2d.png">
-    <img align="center" alt="tubarao" src="https://user-images.githubusercontent.com/126777966/227590569-7fec69b6-7e07-4183-9ba1-abfde1366f07.png">
+ <img align="center" alt="gato" src="https://github.com/BernardoSsilva/TesteDePreferenciaCerebral/assets/126777966/f2953975-6b78-4941-97fb-b20500988932">
+  <img align="center" alt="aguia" src="https://github.com/BernardoSsilva/TesteDePreferenciaCerebral/assets/126777966/80cbf5b3-d9af-4f04-afa3-30cc5b0d05ab">
+   <img align="center" alt="lobo" src="https://github.com/BernardoSsilva/TesteDePreferenciaCerebral/assets/126777966/fbbca5f5-d52e-4b68-b63e-eaa61309a264">
+    <img align="center" alt="tubarao" src="https://github.com/BernardoSsilva/TesteDePreferenciaCerebral/assets/126777966/c657721b-6882-44c2-b604-665738f06f4d">
 </div>
 
 <p>O teste contem 25 perguntas que incrementam valores especificos que interferem diretamente no resultado final, sendo estas perguntas referentes a personalidade e praticas do usuario.</p<
