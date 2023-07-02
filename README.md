@@ -5,7 +5,7 @@
 <p>O projeto é um web-site de teste de personalidade que apresenta 4 possiveis resultados<p>
 
 <div display="inline">
- <img align="center"alt="gato" src="https://github.com/BernardoSsilva/TesteDePreferenciaCerebral/assets/126777966/220ee512-b0e1-440a-bfd8-f404c0b73d70">
+ <img align="center" style="width:3rem; height:3rem;" alt="gato" src="https://github.com/BernardoSsilva/TesteDePreferenciaCerebral/assets/126777966/220ee512-b0e1-440a-bfd8-f404c0b73d70">
   <img align="center"  alt="aguia" src="https://github.com/BernardoSsilva/TesteDePreferenciaCerebral/assets/126777966/89f7e8d4-7709-4e3b-bc33-7b10fff02182">
    <img align="center"  alt="lobo" src="https://github.com/BernardoSsilva/TesteDePreferenciaCerebral/assets/126777966/7e6adfd7-8a77-4016-9a6b-0b53917fd8a1">
     <img align="center"   alt="tubarao" src="https://github.com/BernardoSsilva/TesteDePreferenciaCerebral/assets/126777966/ec22b0f8-2ea9-4220-a541-bd47a7c5fc6e">
